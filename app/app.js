@@ -3,6 +3,7 @@ import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'acc-demo/config/environment';
 import { importSync, isDevelopingApp, macroCondition } from '@embroider/macros';
+import 'acc-demo/app.css';
 
 if (macroCondition(isDevelopingApp())) {
   importSync('./deprecation-workflow');

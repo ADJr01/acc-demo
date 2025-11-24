@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* -------------------------------------
+   DARK PREMIUM THEME
+   Toggle class: .theme-dark-premium
+------------------------------------- */
+
+:root{
+  /* --------------------
+     Typography
+  --------------------- */
+
+  --font-family: "Nunito";
+  --font-size-title: 2rem;          /* 32px */
+  --font-size-sub-title: 1.5rem;    /* 24px */
+  --font-size-emphasise: 1.125rem;  /* 18px */
+  --font-size-content: 1rem;        /* 16px */
+  --font-size-sub-content: 0.875rem;/* 14px */
+  --font-size-no-emphasis: 0.75rem; /* 12px */
+  --font-weight-title: 800;
+  --font-weight-sub-title: 700;
+  --font-weight-emphasise: 600;
+  --font-weight-content: 400;
+  --font-weight-sub-content: 400;
+  --font-weight-no-emphasis: 300;
+
+  /* --------------------
+     Body Tokens
+  --------------------- */
+
+  --body-text: #E4E7EB;
+  --body-error-text: #FF6B6B;
+  --body-success-text: #4CD964;
+  --body-bg: #1A1B1E;
+  --body-border: 1px solid;
+  --body-border-color: #2C2D31;
+  --body-error-border: #FF6B6B;
+  --body-success-border: #4CD964;
+  --body-shadow: 0 2px 8px rgb(0 0 0 / 40%);
+  --body-radius: 8px;
+
+  /* --------------------
+     Header Tokens
+  --------------------- */
+
+  --header-text: #FFF;
+  --header-error-text: #FF6B6B;
+  --header-success-text: #4CD964;
+  --header-bg: #27292D;
+  --header-border: 1px solid;
+  --header-border-color: #34363A;
+  --header-error-border: #FF6B6B;
+  --header-success-border: #4CD964;
+  --header-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+  --header-radius: 0px;
+
+  /* --------------------
+     Card Tokens
+  --------------------- */
+
+  --card-text: #E4E7EB;
+  --card-error-text: #FF6B6B;
+  --card-success-text: #4CD964;
+  --card-bg: #242528;
+  --card-border: 1px solid;
+  --card-border-color: #323337;
+  --card-error-border: #FF6B6B;
+  --card-success-border: #4CD964;
+  --card-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+  --card-radius: 10px;
+
+  /* --------------------
+     Input Tokens
+  --------------------- */
+
+  --input-text: #E4E7EB;
+  --input-placeholder: #777B82;
+  --input-error-text: #FF6B6B;
+  --input-success-text: #4CD964;
+  --input-bg: #2A2B2F;
+  --input-border: 1px solid;
+  --input-border-color: #404247;
+  --input-error-border: #FF6B6B;
+  --input-success-border: #4CD964;
+  --input-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+  --input-radius: 6px;
+
+  /* --------------------
+     Button Tokens
+  --------------------- */
+
+  --btn-text: #FFF;
+  --btn-error-text: #FFF;
+  --btn-success-text: #FFF;
+  --btn-bg: #3A3F44;
+  --btn-border: 1px solid;
+  --btn-border-color: #575B61;
+  --btn-error-border: #FF6B6B;
+  --btn-success-border: #4CD964;
+  --btn-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+  --btn-radius: 6px;
+}
+
+/* -------------------------------------
+   DARK PREMIUM THEME
+   Toggle class: .theme-dark-premium
+------------------------------------- */
+
+.theme-dark-premium {
+  /* --------------------
+     Typography
+  --------------------- */
+
+  --font-family: "Nunito", sans-serif;
+  --font-size-title: 2rem;          /* 32px */
+  --font-size-sub-title: 1.5rem;    /* 24px */
+  --font-size-emphasise: 1.125rem;  /* 18px */
+  --font-size-content: 1rem;        /* 16px */
+  --font-size-sub-content: 0.875rem;/* 14px */
+  --font-size-no-emphasis: 0.75rem; /* 12px */
+  --font-weight-title: 800;
+  --font-weight-sub-title: 700;
+  --font-weight-emphasise: 600;
+  --font-weight-content: 400;
+  --font-weight-sub-content: 400;
+  --font-weight-no-emphasis: 300;
+
+  /* --------------------
+     Body Tokens
+  --------------------- */
+
+  --body-text: #E4E7EB;
+  --body-error-text: #FF6B6B;
+  --body-success-text: #4CD964;
+  --body-bg: #1A1B1E;
+  --body-border: 1px solid;
+  --body-border-color: #2C2D31;
+  --body-error-border: #FF6B6B;
+  --body-success-border: #4CD964;
+  --body-shadow: 0 2px 8px rgb(0 0 0 / 40%);
+  --body-radius: 8px;
+
+  /* --------------------
+     Header Tokens
+  --------------------- */
+
+  --header-text: #FFF;
+  --header-error-text: #FF6B6B;
+  --header-success-text: #4CD964;
+  --header-bg: #27292D;
+  --header-border: 1px solid;
+  --header-border-color: #34363A;
+  --header-error-border: #FF6B6B;
+  --header-success-border: #4CD964;
+  --header-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+  --header-radius: 0px;
+
+  /* --------------------
+     Card Tokens
+  --------------------- */
+
+  --card-text: #E4E7EB;
+  --card-error-text: #FF6B6B;
+  --card-success-text: #4CD964;
+  --card-bg: #242528;
+  --card-border: 1px solid;
+  --card-border-color: #323337;
+  --card-error-border: #FF6B6B;
+  --card-success-border: #4CD964;
+  --card-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+  --card-radius: 10px;
+
+  /* --------------------
+     Input Tokens
+  --------------------- */
+
+  --input-text: #E4E7EB;
+  --input-placeholder: #777B82;
+  --input-error-text: #FF6B6B;
+  --input-success-text: #4CD964;
+  --input-bg: #2A2B2F;
+  --input-border: 1px solid;
+  --input-border-color: #404247;
+  --input-error-border: #FF6B6B;
+  --input-success-border: #4CD964;
+  --input-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+  --input-radius: 6px;
+
+  /* --------------------
+     Button Tokens
+  --------------------- */
+
+  --btn-text: #FFF;
+  --btn-error-text: #FFF;
+  --btn-success-text: #FFF;
+  --btn-bg: #3A3F44;
+  --btn-border: 1px solid;
+  --btn-border-color: #575B61;
+  --btn-error-border: #FF6B6B;
+  --btn-success-border: #4CD964;
+  --btn-shadow: 0 2px 6px rgb(0 0 0 / 35%);
+  --btn-radius: 6px;
+  --neu-shadow-light: rgb(40 42 46 / 80%);
+  --neu-shadow-dark: rgb(10 11 13 / 90%);
+  --neu-pressed-light: rgb(10 11 13 / 50%);
+  --neu-pressed-dark: rgb(40 42 46 / 50%);
+}
+
+body {
+  background: var(--body-bg);
+  color: var(--body-text);
+  font-family: var(--font-family);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  border: var(--header-border);
+  border-color: var(--header-border-color);
+  border-radius: var(--header-radius);
+  box-shadow: var(--header-shadow);
+  font-family: var(--font-family);
+}
+
+.card {
+  background: var(--card-bg);
+  color: var(--card-text);
+  border: var(--card-border);
+  border-color: var(--card-border-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  font-family: var(--font-family);
+}
+
+input {
+  background: var(--input-bg);
+  color: var(--input-text);
+  border: var(--input-border);
+  border-color: var(--input-border-color);
+  border-radius: var(--input-radius);
+  box-shadow: var(--input-shadow);
+  font-family: var(--font-family);
+}
+
+input::placeholder {
+  color: var(--input-placeholder);
+  font-family: var(--font-family);
+}
+
+.btn {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: var(--btn-border);
+  border-color: var(--btn-border-color);
+  border-radius: var(--btn-radius);
+  box-shadow: var(--btn-shadow);
+  font-family: var(--font-family);
+}
+
+h1,h2,h3,h4,h5,h6,span,p,strong,small,dl,dt,td,tr,table{
+  font-family: var(--font-family)!important;
+}

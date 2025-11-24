@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="daisy ui and tailwind css integration in ember.js">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/acc-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/chat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/dark.theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/deprecation-workflow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ember-cli-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/optional-features.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/targets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ember-cli-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ember-cli-build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
-    </list>
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="chat UI interface primary stage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +71,7 @@
       <workItem from="1763874324813" duration="858000" />
       <workItem from="1763899641290" duration="9000" />
       <workItem from="1763956949018" duration="213000" />
-      <workItem from="1763957291243" duration="13302000" />
+      <workItem from="1763957291243" duration="13600000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -111,7 +81,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763829940598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chat UI interface primary stage">
+      <option name="closed" value="true" />
+      <created>1763975676281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763975676281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chat UI interface primary stage">
+      <option name="closed" value="true" />
+      <created>1763975681114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763975681114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="daisy ui and tailwind css integration in ember.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="daisy ui and tailwind css integration in ember.js" />
+    <MESSAGE value="chat UI interface primary stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat UI interface primary stage" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

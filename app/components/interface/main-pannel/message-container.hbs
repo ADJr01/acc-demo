@@ -1,0 +1,11 @@
+<!-- Messages Container -->
+<div class="messages-container" id="messagesContainer">
+  {{#each this.temporaryMessageStream as |stream stream_index|}}
+    <Interface::MainPannel::MessageContainer::User @stream={{stream}}/>
+
+    <Interface::MainPannel::MessageContainer::Assistant @stream={{stream}}/>
+  {{/each}}
+
+
+
+</div>

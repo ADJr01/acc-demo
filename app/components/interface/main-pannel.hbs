@@ -1,0 +1,26 @@
+<!-- Main Chat Area -->
+<main class="chat-main">
+  <!-- Header -->
+  <header class="chat-header">
+    <button class="menu-toggle" id="menuToggle">
+      <FaIcon @icon="bars"  @title="menu toggle"  />
+    </button>
+    <div class="chat-title">
+      <h1>Neumorphic Design Tips</h1>
+    </div>
+    <div class="header-actions">
+      <button class="header-btn" title="Search">
+        <FaIcon @icon="search"  @title="menu toggle"  />
+      </button>
+      <button class="header-btn" title="Settings">
+        <FaIcon @icon="cog"  @title="Settings"  />
+      </button>
+    </div>
+  </header>
+
+  <Interface::MainPannel::MessageContainer/>
+
+
+
+  <Interface::MainPannel::InputController/>
+</main>

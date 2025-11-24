@@ -1,7 +1,7 @@
 'use strict';
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
-
+const isProductionApp = () => process.env.EMBER_ENV === 'production';
 module.exports = function (defaults) {
   const app = new EmberApp(defaults, {
     emberData: {
@@ -14,30 +14,18 @@ module.exports = function (defaults) {
       },
     },
     // Add options here
-  });
-
-  const { Webpack } = require('@embroider/webpack');
-  return require('@embroider/compat').compatBuild(app, Webpack, {
-    staticAddonTestSupportTrees: true,
-    staticAddonTrees: true,
-    staticEmberSource: true,
-    staticInvokables: true,
-    skipBabel: [
-      {
-        package: 'qunit',
-      },
-    ],
-    packagerOptions: {
-      webpackConfig: {
-        module: {
-          rules: [
-            {
-              test: /\.css$/i,
-              use: ['postcss-loader'],
-            },
-          ],
-        },
-      },
+    'ember-font-awesome': {
+      useScss: false,
+      useLess: false,
+    },
+    minifyJS: {
+      enabled: isProductionApp(),
+    },
+    minifyCSS: {
+      enabled: isProductionApp(),
+      options: { processImport: true }
     },
   });
+
+  return app.toTree();
 };

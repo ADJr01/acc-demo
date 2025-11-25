@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="chat UI interface primary stage" />
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment=".idea folder added to gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1763874324813" duration="858000" />
       <workItem from="1763899641290" duration="9000" />
       <workItem from="1763956949018" duration="213000" />
-      <workItem from="1763957291243" duration="13600000" />
+      <workItem from="1763957291243" duration="14646000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -97,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763975681114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".idea folder added to gitignore">
+      <option name="closed" value="true" />
+      <created>1763975860619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763975860619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="daisy ui and tailwind css integration in ember.js" />
     <MESSAGE value="chat UI interface primary stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat UI interface primary stage" />
+    <MESSAGE value=".idea folder added to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea folder added to gitignore" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

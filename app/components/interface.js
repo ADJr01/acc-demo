@@ -1,8 +1,12 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
+import BrowserID from '../utility/BrowserID';
+
 export default class Interface extends Component {
 
-  @action init(){
+  @action async init(){
+    const device_browser_id =await BrowserID()
+    console.log(device_browser_id);
     // Mobile menu toggle
     const menuToggle = document.getElementById('menuToggle');
     const sidebar = document.getElementById('sidebar');

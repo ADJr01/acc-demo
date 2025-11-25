@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="common service for chat hasbeen added">
-      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AcStreamPipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/utility/InstructionMode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/chat.js" afterDir="false" />
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="Designing the core system that will be used to talk with AgentCore server">
+      <change beforePath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <workItem from="1764059353700" duration="1154000" />
       <workItem from="1764069136127" duration="14000" />
       <workItem from="1764069227118" duration="5125000" />
-      <workItem from="1764087161399" duration="7256000" />
+      <workItem from="1764087161399" duration="8435000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -147,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764074734662</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Designing the core system that will be used to talk with AgentCore server">
+      <option name="closed" value="true" />
+      <created>1764099199136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764099199136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +160,8 @@
     <MESSAGE value="chat UI interface primary stage" />
     <MESSAGE value=".idea folder added to gitignore" />
     <MESSAGE value="common service for chat hasbeen added" />
-    <option name="LAST_COMMIT_MESSAGE" value="common service for chat hasbeen added" />
+    <MESSAGE value="Designing the core system that will be used to talk with AgentCore server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designing the core system that will be used to talk with AgentCore server" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

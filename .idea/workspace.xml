@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment=".idea folder added to gitignore">
-      <change afterPath="$PROJECT_DIR$/app/utility/BrowserID.js" afterDir="false" />
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="common service for chat hasbeen added">
+      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AcStreamPipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/utility/InstructionMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/message-container.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/message-container.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Personal\Web\acc-demo\app\AgentCore\ACST\AgentCoreStreamObject\utility" />
+      <recent name="D:\Projects\Personal\Web\acc-demo\app\AgentCore\ACST\AgentCoreStreamObject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +88,8 @@
       <workItem from="1763957291243" duration="14646000" />
       <workItem from="1764059353700" duration="1154000" />
       <workItem from="1764069136127" duration="14000" />
-      <workItem from="1764069227118" duration="3741000" />
+      <workItem from="1764069227118" duration="5125000" />
+      <workItem from="1764087161399" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -131,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764059433482</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="common service for chat hasbeen added">
+      <option name="closed" value="true" />
+      <created>1764074734662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764074734662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +157,8 @@
     <MESSAGE value="daisy ui and tailwind css integration in ember.js" />
     <MESSAGE value="chat UI interface primary stage" />
     <MESSAGE value=".idea folder added to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea folder added to gitignore" />
+    <MESSAGE value="common service for chat hasbeen added" />
+    <option name="LAST_COMMIT_MESSAGE" value="common service for chat hasbeen added" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -14,5 +14,6 @@
 /testem.log
 /yarn-error.log
 /.idea
+/.idea/*
 # broccoli-debug
 /DEBUG/

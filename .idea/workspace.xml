@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="Designing the core system that will be used to talk with AgentCore server">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AgentCore/ACST/AcStreamPipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AcStreamPipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgentCore/ACST/AgentCoreStreamObject/AcsInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,9 @@
       <workItem from="1764059353700" duration="1154000" />
       <workItem from="1764069136127" duration="14000" />
       <workItem from="1764069227118" duration="5125000" />
-      <workItem from="1764087161399" duration="8435000" />
+      <workItem from="1764087161399" duration="8783000" />
+      <workItem from="1764210317986" duration="1420000" />
+      <workItem from="1764218460796" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -149,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764099199136</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Designing the core system that will be used to talk with AgentCore server">
+      <option name="closed" value="true" />
+      <created>1764100699161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764100699161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

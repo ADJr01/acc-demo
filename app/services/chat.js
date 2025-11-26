@@ -13,10 +13,9 @@ export default class ChatService extends Service {
           assistant: 'Hey How Can i help You Today?',
           config:{
             mode: InstructionMode.BASIC_MODE,
-            temperature: 0.0, // 0 means temperature control disabled
-            maxToken: 0,// 0 means temperature control disabled
-            minToken: 0,
-            root:false,
+            temperature: 0.0, // default temperature
+            maxToken: 0,// 0 means maxToken control disabled
+            minToken: 0,// 0 means minToken control disabled
             thinking:false, // decide if llm should think or not
             model: null
           },
@@ -28,7 +27,6 @@ export default class ChatService extends Service {
               message: '',
             },
             query_attachment: [],
-            assistant_attachment: [],
             userReview: 0, // 0 means neutral,1 means positive,-1 means negative
           }
         },

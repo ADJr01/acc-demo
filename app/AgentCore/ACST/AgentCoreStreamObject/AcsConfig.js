@@ -9,11 +9,10 @@ export default class AcsConfig {
   constructor(acs_object_id) {
     this.acs_object_id = acs_object_id;
     this.mode = InstructionMode.NULL_MODE; //similar to assigning null
-    this.temperature = 0.0; // 0 means temperature control disabled,
+    this.temperature = 0.0; // default temperature
     this.minToken = 0.0;// 0 means minToken control disabled,
     this.maxToken = 0.0;// 0 means maxToken control disabled,
     this.thinking = false;//off
-    this.root = false;//will give access to mcp capabilities
     this.model=null;// primarily no access for model selection
   }
 

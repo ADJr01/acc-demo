@@ -8,7 +8,7 @@ export default class AcStreamPipe {
     this.pipe = [];
   }
 
-  addNewACSObject(acsobject){
+  addToPipe(acsobject){
     if(acsobject instanceof AcsObject){
       this.pipe.push(acsobject);
     }

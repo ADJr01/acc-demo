@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="Designing the core system that will be used to talk with AgentCore server">
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="record btn color changed to steel blue">
+      <change afterPath="$PROJECT_DIR$/app/utility/helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     "node.js.selected.package.stylelint": "D:/Projects/Personal/Web/acc-demo/node_modules/stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\Personal\\Web\\acc-demo\\node_modules\\prettier",
+    "prettierjs.PrettierConfiguration.Package": "/home/ad/Desktop/Project/acc-demo/node_modules/prettier",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -92,7 +94,7 @@
       <workItem from="1764087161399" duration="8783000" />
       <workItem from="1764210317986" duration="1420000" />
       <workItem from="1764218460796" duration="4039000" />
-      <workItem from="1764384651545" duration="511000" />
+      <workItem from="1764384651545" duration="3869000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -166,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764100699161</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="record btn color changed to steel blue">
+      <option name="closed" value="true" />
+      <created>1764385221548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764385221548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +188,8 @@
     <MESSAGE value=".idea folder added to gitignore" />
     <MESSAGE value="common service for chat hasbeen added" />
     <MESSAGE value="Designing the core system that will be used to talk with AgentCore server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Designing the core system that will be used to talk with AgentCore server" />
+    <MESSAGE value="record btn color changed to steel blue" />
+    <option name="LAST_COMMIT_MESSAGE" value="record btn color changed to steel blue" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

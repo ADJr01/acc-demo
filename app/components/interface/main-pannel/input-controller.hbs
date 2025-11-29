@@ -3,7 +3,7 @@
 <div class="input-area">
   <div class="input-wrapper">
     <div class="input-actions">
-      <button class="input-btn" title="Add Attachment" type="button">
+      <button class="input-btn" title="Add Attachment" type="button" {{on 'click' this.onFileAttachIconClick}}>
         <FaIcon @icon="link"  @title="Attachment"  />
       </button>
     </div>
@@ -20,4 +20,17 @@
       <FaIcon @icon="paper-plane"  @title="send"  />
     </button>
   </div>
+  <input
+    id="chat_attachment"
+    style="display: none"
+    type="file"
+    accept=".txt,text/plain,
+          .pdf,application/pdf,
+          .doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,
+          .xls,.xlsx,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,
+          image/*"
+    multiple={{true}}
+    maxlength={{3}}
+    {{on 'change' this.onFileItemChange}}
+  />
 </div>

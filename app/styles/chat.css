@@ -469,6 +469,24 @@ body {
   margin-right: 8px;
 }
 
+.record-btn {
+  background: linear-gradient(135deg, steelblue, dodgerblue);
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  box-shadow:
+    6px 6px 12px var(--neu-shadow-dark),
+    -6px -6px 12px var(--neu-shadow-light);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
 .send-btn:hover {
   transform: scale(1.05);
   box-shadow:

@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import {action} from '@ember/object';
-import { fileToBase64 } from '../../../utility/helper';
+import { fileToBase64, readFilesAsBinary } from '../../../utility/helper';
 export default class InterfaceMainPannelInputController extends Component {
   @tracked didFileMenuOpened=false;
 
@@ -28,7 +28,7 @@ export default class InterfaceMainPannelInputController extends Component {
       const allowedExtensions = ['txt', 'pdf', 'doc', 'docx', 'xls', 'xlsx'];
       const allowedImageTypes = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'svg'];
 
-      const isImage = file.type.startsWith('image/');
+      const isImage = file.type.startsWith('image/') && allowedImageTypes.includes(fileExtension);
       const isAllowedDoc = allowedExtensions.includes(fileExtension);
 
       if (isAllowedDoc || isImage) {
@@ -45,30 +45,7 @@ export default class InterfaceMainPannelInputController extends Component {
     return this.readFilesAsBinary(processedFiles);
   }
 
-// Helper method to read files as binary data
-  async readFilesAsBinary(processedFiles) {
-    const filesWithBinaryData = await Promise.all(
-      processedFiles.map(async (fileObj) => {
-        const file = fileObj.binary;
 
-        // Option 1: Read as ArrayBuffer
-        const arrayBuffer = await file.arrayBuffer();
-
-        // Option 2: Read as Base64 (uncomment if needed)
-        // const base64 = await fileToBase64(file);
-
-        return {
-          binary: arrayBuffer, // or base64
-          type: fileObj.type,
-          name: file.name,
-          size: file.size,
-          mimeType: file.type
-        };
-      })
-    );
-
-    return filesWithBinaryData;
-  }
 
 
 }

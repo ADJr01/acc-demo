@@ -8,7 +8,9 @@ export function fileToBase64(file) {
 }
 
 export async function readFilesAsBinary(processedFiles) {
-  const filesWithBinaryData = await Promise.all(
+
+
+  return await Promise.all(
     processedFiles.map(async (fileObj) => {
       const file = fileObj.binary;
 
@@ -23,10 +25,8 @@ export async function readFilesAsBinary(processedFiles) {
         type: fileObj.type,
         name: file.name,
         size: file.size,
-        mimeType: file.type
+        mimeType: file.type,
       };
-    })
+    }),
   );
-
-  return filesWithBinaryData;
 }

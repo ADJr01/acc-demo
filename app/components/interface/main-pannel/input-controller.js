@@ -1,7 +1,8 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import {action} from '@ember/object';
-import { fileToBase64, readFilesAsBinary } from '../../../utility/helper';
+import { action } from '@ember/object';
+import { readFilesAsBinary } from '../../../utility/helper';
+
 export default class InterfaceMainPannelInputController extends Component {
   @tracked didFileMenuOpened=false;
 
@@ -11,7 +12,7 @@ export default class InterfaceMainPannelInputController extends Component {
     input.click();
   }
 
-  @action onFileItemChange(event) {
+  @action async onFileItemChange(event) {
     // user can only select .txt, .pdf, .doc/.docx,.xls/.xlsx or image files
     const selectedFiles = event.target.files;
     const processedFiles = [];
@@ -42,7 +43,17 @@ export default class InterfaceMainPannelInputController extends Component {
 
     // If you need to read files as binary data (ArrayBuffer or Base64)
     // Use this async approach:
-    return this.readFilesAsBinary(processedFiles);
+    /*
+    {
+        binary: arrayBuffer, // or base64
+        type: fileObj.type,
+        name: file.name,
+        size: file.size,
+        mimeType: file.type,
+      }
+    * */
+
+    return await readFilesAsBinary(processedFiles);
   }
 
 

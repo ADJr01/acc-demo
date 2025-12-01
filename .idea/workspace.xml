@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="record btn color changed to steel blue">
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="few cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utility/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utility/helper.js" afterDir="false" />
@@ -94,7 +94,9 @@
       <workItem from="1764218460796" duration="4039000" />
       <workItem from="1764384651545" duration="3892000" />
       <workItem from="1764435115273" duration="13000" />
-      <workItem from="1764435491401" duration="1163000" />
+      <workItem from="1764435491401" duration="2980000" />
+      <workItem from="1764474104675" duration="1241000" />
+      <workItem from="1764609942815" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -184,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764388622960</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="few cleanup">
+      <option name="closed" value="true" />
+      <created>1764436666776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764436666776</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +207,8 @@
     <MESSAGE value="common service for chat hasbeen added" />
     <MESSAGE value="Designing the core system that will be used to talk with AgentCore server" />
     <MESSAGE value="record btn color changed to steel blue" />
-    <option name="LAST_COMMIT_MESSAGE" value="record btn color changed to steel blue" />
+    <MESSAGE value="few cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="few cleanup" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

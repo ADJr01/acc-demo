@@ -641,3 +641,27 @@ body {
   color: var(--input-placeholder);
   font-size: var(--font-size-content);
 }
+
+
+/* FILE ATTACHMENT */
+.chat_file_attachment{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.file_attachment{
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--body-bg);
+  box-shadow:
+     4px 4px 8px var(--neu-shadow-dark),
+    -4px -4px 8px var(--neu-shadow-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}

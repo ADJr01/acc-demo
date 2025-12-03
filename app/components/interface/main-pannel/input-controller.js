@@ -5,6 +5,7 @@ import { readFilesAsBinary } from '../../../utility/helper';
 
 export default class InterfaceMainPannelInputController extends Component {
   @tracked didFileMenuOpened=false;
+  @tracked selectedFileObject = [];
 
   @action onFileAttachIconClick(){
     const input = document.getElementById('chat_attachment')
@@ -53,7 +54,7 @@ export default class InterfaceMainPannelInputController extends Component {
       }
     * */
 
-    return await readFilesAsBinary(processedFiles);
+    this.selectedFileObject =  await readFilesAsBinary(processedFiles);
   }
 
 

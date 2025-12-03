@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="few cleanup">
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="input-attachment-list component added to visualized attachment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utility/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utility/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/chat.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ad/Desktop/Project/acc-demo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ad/Downloads/index.html&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -96,7 +99,10 @@
       <workItem from="1764435115273" duration="13000" />
       <workItem from="1764435491401" duration="2980000" />
       <workItem from="1764474104675" duration="1241000" />
-      <workItem from="1764609942815" duration="570000" />
+      <workItem from="1764609942815" duration="1358000" />
+      <workItem from="1764737652946" duration="151000" />
+      <workItem from="1764738082076" duration="4794000" />
+      <workItem from="1764748994581" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -194,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764436666776</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="input-attachment-list component added to visualized attachment">
+      <option name="closed" value="true" />
+      <created>1764610629360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764610629360</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +222,8 @@
     <MESSAGE value="Designing the core system that will be used to talk with AgentCore server" />
     <MESSAGE value="record btn color changed to steel blue" />
     <MESSAGE value="few cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="few cleanup" />
+    <MESSAGE value="input-attachment-list component added to visualized attachment" />
+    <option name="LAST_COMMIT_MESSAGE" value="input-attachment-list component added to visualized attachment" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

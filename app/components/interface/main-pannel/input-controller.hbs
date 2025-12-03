@@ -1,6 +1,7 @@
 
 {{!-- Input Area --}}
 <div class="input-area">
+  <Interface::MainPannel::InputController::InputAttachmentList @attachmentList={{this.selectedFileObject}}/>
   <div class="input-wrapper">
     <div class="input-actions">
       <button class="input-btn" title="Add Attachment" type="button" {{on 'click' this.onFileAttachIconClick}}>

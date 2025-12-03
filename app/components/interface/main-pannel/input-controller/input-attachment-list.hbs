@@ -1,1 +1,8 @@
-{{yield}}
+<div class="chat_file_attachment">
+
+  {{#each @attachmentList as |attachment attachment_index|}}
+    <div class="file_attachment">
+      <img src={{attachment.binary}} width="32px" height="32px" style="object-fit: cover">
+    </div>
+  {{/each}}
+</div>

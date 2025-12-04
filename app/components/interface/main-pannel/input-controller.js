@@ -54,7 +54,7 @@ export default class InterfaceMainPannelInputController extends Component {
       }
     * */
 
-    this.selectedFileObject =  await readFilesAsBinary(processedFiles);
+    this.selectedFileObject =  [...this.selectedFileObject,...await readFilesAsBinary(processedFiles)];
   }
 
 

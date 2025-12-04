@@ -11,16 +11,13 @@ export default class InterfaceMainPannelInputControllerInputAttachmentListAttach
     mimeType: file.type,
   }
 * */
-  @action render_image(element){
-    const image_types = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'svg'];
-    if(image_types.includes(this.args.attachment.type) && this.args.attachment.binary){
+  get render_image(){
       const blob = new Blob([this.args.attachment.binary], { type: "image/png" });
-      element.src= URL.createObjectURL(blob)
-      return;
+      return URL.createObjectURL(blob);
+  }
 
-    }
-    element.style.display='none';
-    return false
-
+  get is_image_attachment(){
+    const image_types = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'svg'];
+    return image_types.includes(this.args.attachment.type)
   }
 }

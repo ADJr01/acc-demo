@@ -53,8 +53,11 @@ export default class InterfaceMainPannelInputController extends Component {
         mimeType: file.type,
       }
     * */
+    const attachments = await readFilesAsBinary(processedFiles)
+    attachments.forEach(attachment => {
+      this.selectedFileObject=[...this.selectedFileObject,attachment];
+    })
 
-    this.selectedFileObject =  [...this.selectedFileObject,...await readFilesAsBinary(processedFiles)];
   }
 
 

@@ -1,7 +1,10 @@
 <div class="file_attachment">
-
-    <img src={{this.rendered_content}} width="32px" height="32px" style="object-fit: cover" loading="lazy" {{did-insert this.render_image}}>
-    {{#unless this.rendered_content}}
+  <div class="file_attachment_delete">
+    <FaIcon @icon="trash"   @title="{{@attachment.name}}"  />
+  </div>
+  {{#if this.is_image_attachment}}
+      <img src={{this.render_image}} width="32px" height="32px" style="object-fit: cover" loading="lazy" title="{{@attachment.name}}">
+    {{else}}
       <FaIcon @icon="file"  @title="{{@attachment.name}}"  />
-    {{/unless}}
+    {{/if}}
 </div>

@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/chat.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

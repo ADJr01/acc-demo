@@ -11,9 +11,9 @@ export default class InterfaceMainPannelInputControllerInputAttachmentListAttach
     mimeType: file.type,
   }
 * */
-  @action rendered_content(element){
+  @action render_image(element){
     const image_types = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'svg'];
-    if(image_types.includes(this.args.attachment.type)){
+    if(image_types.includes(this.args.attachment.type) && this.args.attachment.binary){
       const blob = new Blob([this.args.attachment.binary], { type: "image/png" });
       element.src= URL.createObjectURL(blob)
       return;

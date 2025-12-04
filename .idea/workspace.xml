@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="working on file attachment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" afterDir="false" />
-    </list>
+    <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="working on file attachment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +97,7 @@
       <workItem from="1764737652946" duration="151000" />
       <workItem from="1764738082076" duration="4794000" />
       <workItem from="1764748994581" duration="4157000" />
-      <workItem from="1764781251034" duration="432000" />
+      <workItem from="1764781251034" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="daisy ui and tailwind css integration in ember.js">
       <option name="closed" value="true" />
@@ -217,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764749678168</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="working on file attachment">
+      <option name="closed" value="true" />
+      <created>1764781984481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764781984481</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -16,8 +16,10 @@ export default class InterfaceMainPannelInputControllerInputAttachmentListAttach
     if(image_types.includes(this.args.attachment.type)){
       const blob = new Blob([this.args.attachment.binary], { type: "image/png" });
       element.src= URL.createObjectURL(blob)
+      return;
 
     }
+    element.style.display='none';
     return false
 
   }

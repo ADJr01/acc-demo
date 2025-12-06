@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc21778-d0c2-40e3-9a06-a507b527e95d" name="Changes" comment="working on file attachment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/interface/main-pannel/input-controller/input-attachment-list/attachment-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/chat.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,31 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ad/Downloads/index.html&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;D:/Projects/Personal/Web/acc-demo/node_modules/stylelint&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/ad/Desktop/Project/acc-demo/node_modules/prettier&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/ad/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "dev",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/ad/Downloads/index.html",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "D:\\Projects\\Personal\\Web\\acc-demo\\node_modules\\stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\Personal\\Web\\acc-demo\\node_modules\\prettier",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/ad/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Personal\Web\acc-demo\app\AgentCore\ACST\AgentCoreStreamObject\utility" />
@@ -72,7 +71,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>

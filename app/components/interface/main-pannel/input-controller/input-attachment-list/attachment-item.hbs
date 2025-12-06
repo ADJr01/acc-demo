@@ -1,5 +1,5 @@
 <div class="file_attachment">
-  <div class="file_attachment_delete">
+  <div class="file_attachment_delete" {{on 'click' (fn @dropItem @attachmentIndex)}}>
     <FaIcon @icon="trash"   @title="{{@attachment.name}}"  />
   </div>
   {{#if this.is_image_attachment}}

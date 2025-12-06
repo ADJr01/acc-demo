@@ -1,6 +1,6 @@
 <div class="chat_file_attachment">
 
   {{#each @attachmentList as |attachment attachment_index|}}
-    <Interface::MainPannel::InputController::InputAttachmentList::AttachmentItem @attachment={{attachment}}/>
+    <Interface::MainPannel::InputController::InputAttachmentList::AttachmentItem @attachment={{attachment}} @attachmentIndex={{attachment_index}} @dropItem={{this.deleteAttachment}}/>
   {{/each}}
 </div>

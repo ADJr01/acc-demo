@@ -14,13 +14,14 @@
       rows="1"
       id="messageInput"
     ></textarea>
-    <button class="record-btn" id="sendBtn" title="Send Message" type="button">
-      <FaIcon @icon="microphone"  @title="send"  />
+    <button class="record-btn" id="recordBtn" title="Voice Record" type="button">
+      <FaIcon @icon="microphone"  @title="record"  />
     </button>
     <button class="send-btn" id="sendBtn" title="Send Message" type="button">
       <FaIcon @icon="paper-plane"  @title="send"  />
     </button>
   </div>
+  {{!-- file input ||--}}
   <input
     id="chat_attachment"
     style="display: none"
